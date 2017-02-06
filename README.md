@@ -17,4 +17,8 @@ This is a basic pom.xml file used to compile the Hadoop programs in CDH-5.8 Quic
 
     <groupId>hk.ust.weiwa</groupId>
     
+**Step 4.** In `pom.xml`, change the following line and replace `MyApp` with your app name.
+
+    <artifactId>MyApp</artifactId>
+
 You can now start writing your Hadoop code. When you are done, compile your project and package the jar file using the following commands: `mvn package`.
